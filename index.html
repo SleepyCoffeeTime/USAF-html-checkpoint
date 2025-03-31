@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMDB - General Movie Database</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <section class="login-page">
+      <h1>Login to GMDB</h1>
+      <form action="#" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Browse Movies</a></li>
+        <li><a href="#">Top Rated</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+
+    <section class="movie-browse">
+      <h2>Browse Movies</h2>
+      <div class="movie-list">
+      
+        <div class="movie-item">
+          <img src="images/movie1.jpg" alt="Movie 1 Poster">
+          <h3>Movie Title</h3>
+          <p>Release Year: 2022</p>
+        </div>
+
+        <div class="movie-item">
+          <img src="images/movie2.jpg" alt="Movie 2 Poster">
+          <h3>Movie Title</h3>
+          <p>Release Year: 2021</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="movie-details">
+      <h2>Movie Title</h2>
+      <img src="images/movie1.jpg" alt="Movie Poster">
+      <p>Released: 2022</p>
+      <p>Description: This is a description of the movie.</p>
+
+      <div class="leave-comment">
+        <h3>Leave a Comment</h3>
+        <textarea placeholder="Write your comment here..."></textarea>
+        <button type="submit">Submit Comment</button>
+      </div>
+    </section>
+  </body>
+</html>
